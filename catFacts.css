@@ -1,0 +1,102 @@
+html, body {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body {
+    background-color: rgb(248, 215, 238);
+     
+}
+
+/* Are you kitten me? information */
+.quoteContainer {
+    width: 50vw;
+    font-size: 3em;
+    text-align: left;
+ 
+    flex-wrap: nowrap;
+    
+}
+
+p {
+    /* positions the text within the quote container so that there is some border */
+    margin-right: 1em;
+    margin-left: 1em; 
+    font-family: 'Dancing Script', cursive;
+    
+    
+    
+    
+}
+
+
+.catPink {
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    /* flex-direction: row; */
+    /* background-image: no-repeat; */
+    /* flex-shrink: inherit; */
+    
+     /* background-position: right;  */
+    /* float: right;  */
+    position: fixed right; 
+    max-width: 50%;
+}
+
+img {
+    width: auto;
+
+    /* allows that height of the entire image to be seen */
+    max-height: 100%; 
+    
+    /* keeps cat position from moving all over the page */
+     position: fixed;
+}
+
+.background {
+    flex-wrap: nowrap;
+    /* this is where the display moves to a row versus column */
+    display: flex;
+    /* justify-content: flex-start;  */
+    
+}
+
+h1 {
+    font-family: 'Lobster Two', cursive;
+    font-size: auto;
+    padding-right: 1em;
+    padding-left: 1em;
+    text-align: center;
+
+    /* margin-right: 1em;
+    margin-left: 1em; */
+
+}
+
+.AskMe {
+    background-color: rgb(248, 248, 174);
+    border-radius: 5px;
+    /* border-width: thin; */
+    /* border-color: green; */
+    /* color: rgb(58, 83, 8); */
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Lobster Two', cursive; */
+    /* font-weight: italicized; */
+
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
