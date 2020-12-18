@@ -42,7 +42,7 @@ function displayResults(json) {
 
         
 
-        button.innerText = "Ask me something else";
+        button.innerText = "PURR-ess For a New Fact";
         
         
         
