@@ -1,6 +1,7 @@
 const baseUrl = "https://cat-fact.herokuapp.com/facts/random?animal_type=cat&amount=1"
 
 const section = document.querySelector('section');
+const footer = document.querySelector('footer');
 
 
     fetch(baseUrl)
@@ -49,6 +50,7 @@ function displayResults(json) {
         // append to html
         section.appendChild(Fact);
         section.appendChild(button);
+        // footer.appendChild(button);
 
         button.addEventListener('click', () => {
             
